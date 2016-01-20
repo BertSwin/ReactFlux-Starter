@@ -1,8 +1,11 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Router = require('react-router-component');
-var Locations = Router.Locations;
-var Location = Router.Location;
+var MainPage = require('./page/MainPage.react');
 
-React.render(
+ReactDOM.render(
+  <Router.Locations hash>
+      <Router.Location path="/" handler={MainPage} />
+  </Router.Locations>,
   document.getElementById('diy')
 );
