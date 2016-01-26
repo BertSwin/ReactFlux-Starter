@@ -1,16 +1,16 @@
 var React = require('react');
-var Todo = require('../component/Todo.react');
 var Navigation = require('../component/Navigation.react');
+var Teachers = require('../component/Teachers.react');
 
-var MainPage = React.createClass({
+var TeachersPage = React.createClass({
     render: function() {
       return (
-        <div className="main-page">
+        <div className="teachers-page">
           <Navigation />
-          <Todo />
+          <Teachers />
         </div>
       );
     }
 });
 
-module.exports = MainPage;
+module.exports = TeachersPage;
