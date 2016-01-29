@@ -2,11 +2,11 @@
 ReactFlux-Starter project
 
 # Takeaways
-..* React
-..* JSX
-..* Browserify
-..* npm
-..* Sass
+* React
+* JSX
+* Browserify
+* npm
+* Sass
 
 # Getting started
 1. Install node
@@ -21,9 +21,9 @@ Okay, you're all set.
 # Building the code
 In the 'package.json' file certain scripts (tasks) are provided. These scripts can be run by issuing **npm run *<script>***.
 
-..* **npm run clean**, cleans (removes) the dist(ribution) folder.
-..* **npm run build**, builds the code and copies it to the dist(ribution) folder
-..* **npm run watch**, watches the code and builds it, on change. (**Use watch**. :-))
+* **npm run clean**, cleans (removes) the dist(ribution) folder.
+* **npm run build**, builds the code and copies it to the dist(ribution) folder
+* **npm run watch**, watches the code and builds it, on change. (**Use watch**. :-))
 
 # Serving the distribution
 This starter project ships with a server.js which uses **express** as a web server. It can be ran by issuing **node server.js** within the root folder (=location where server.js resides).
