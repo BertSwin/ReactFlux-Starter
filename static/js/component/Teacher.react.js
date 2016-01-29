@@ -9,7 +9,7 @@ var Teacher = React.createClass({
   },
 
   render: function() {
-    return <span>{this.state.teacher.first} {this.state.teacher.last}</span>;
+    return <span><b>{this.state.teacher.first} {this.state.teacher.last}</b></span>;
   }
 });
 
