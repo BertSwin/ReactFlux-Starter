@@ -11,10 +11,10 @@ ReactFlux-Starter project
 # Getting started
 1. Install node
 2. Verify installation
-..* npm --version (e.g. v2.11.3)
-..* node --version (e.g. v0.12.7)
+* npm --version (e.g. v2.11.3)
+* node --version (e.g. v0.12.7)
 3. npm install
-..* on linux/os x, sudo
+* on linux/os x, sudo
 
 Okay, you're all set.
 
